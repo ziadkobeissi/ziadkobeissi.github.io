@@ -206,7 +206,7 @@ color: #1EAEDB;
                           in the Stochastic Setting</strong> </br>
                       <u>Ziad Kobeissi</u> and Francis Bach, 2022<br>
                       Preprint <br>
-                      <a href="files/continuous_TD.pdf">
+                      <a href="https://arxiv.org/pdf/2202.07960.pdf">
                           <button type="button" class="btn btn-primary btn-xs">pdf</button></a>
                       <button type="button" class="btn btn-primary btn-xs"
                           data-toggle="collapse" data-target="#bibtex6">bibtex</button>
@@ -222,24 +222,15 @@ year = {2023},
                           data-toggle="collapse" data-target="#abstract6">abstract</button>
 	                  <div id="abstract6" class="collapse">
                           <p style="text-align: justify;">
-                          We consider the problem of learning through
-                          observations the value function of an uncontrolled
-continuous-time process and a reward function.
-Using vanishing time steps, we propose two adaptations
-of the well-known TD(0) algorithm: the
-first one is similar to the one in discrete time and
-is model-free; the second is model-based and is
-obtained by adding a zero-expectation term,
-resulting in a reduction of its variance. In the linear
-setting, we prove multiple convergence results for
-the two algorithms, the model-based one is more
-flexible and enjoys better convergence rates. In
-particular, using the Polyak-Juditsky averaging
-method and a constant learning step, we obtain
-a convergence rate similar to the state of the art
-on the simpler problem of linear regression using
-SGD. Finally, we present simulations showing
-numerical evidence of our theoretical analysis.
+                          We consider the problem of continuous-time policy evaluation. This consists in
+learning through observations the value function associated to an uncontrolled
+continuous-time stochastic dynamic and a reward function. We propose two original
+variants of the well-known TD(0) method using vanishing time steps. One
+is model-free and the other is model-based. For both methods, we prove theoretical
+convergence rates that we subsequently verify through numerical simulations.
+Alternatively, those methods can be interpreted as novel reinforcement learning approaches
+for approximating solutions of linear PDEs (partial differential equations)
+or linear BSDEs (backward stochastic differential equations).
                           </p>
                       </div>
                   </li>
